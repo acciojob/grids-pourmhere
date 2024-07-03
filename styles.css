@@ -1,2 +1,42 @@
-
-/* Your CSS Code here. */
+.container {
+        width: 600px;
+        border: 5px solid green;
+        background-color: black;
+      }
+      .row {
+        border: 5px solid gold;
+        height: 200px;
+      }
+      .col {
+        border: 2px dotted darkgray;
+      }
+      .row1-col1 {
+        background-color: teal;
+      }
+      .row1-col2 {
+        background-color: thistle;
+      }
+      .row2-col1 {
+        background-color: tomato;
+      }
+      .row2-col2 {
+        background-color: turquoise;
+      }
+      .row3-col1 {
+        background-color: violet;
+      }
+      .row3-col2 {
+        background-color: yellowgreen;
+      }
+      .row-3 {
+        text-align: center;
+      }
+      @media (max-width: 768px) {
+        .row-1 .col,
+        .row-3 .col {
+          background-color: unset;
+        }
+        .row-3 {
+          text-align: unset;
+        }
+      }
